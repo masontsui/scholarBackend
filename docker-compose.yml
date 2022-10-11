@@ -1,0 +1,9 @@
+services:
+  web:
+    build: ./
+    container_name: 
+      ztest-scholar
+    hostname:
+      ztest-scholar
+    ports: 
+      - "5000:5000/tcp"
